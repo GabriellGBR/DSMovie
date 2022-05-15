@@ -216,11 +216,13 @@ a:hover {
 }
 
 .dsmovie-page-box button:disabled {
-    border: 0.0625rem solid var(--text-light-gray);
+    border: 1px solid var(--text-light-gray);
+    filter: unset;
 }
 
 .dsmovie-page-box button:disabled img {
     filter: unset;
+    color: #aaa;
 }
 
 .flip-seta {

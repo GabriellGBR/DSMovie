@@ -223,6 +223,10 @@ a:hover {
     filter: unset;
 }
 
+.dsmovie-page-box button:disabled img {
+    filter: unset;
+}
+
 .flip-seta {
     transform: rotate(180deg);
 }
